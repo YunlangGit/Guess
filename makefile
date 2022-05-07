@@ -2,9 +2,9 @@ draft_journal_entry.md:
 	touch draft_journal_entry.md
 
 create.md:
-	touch readme.md
-	echo "# File Number Guess" >> readme.md
-	date >> readme.md  
-	echo "  " >> readme.md
-	echo "Line count:  " >> readme.md
-	wc -l  guessinggame.sh | egrep -o "[0-9]+" >> readme.md
+	touch README.md
+	echo "# File Number Guess" >> README.md
+	date >> README.md  
+	echo "  " >> README.md
+	echo "Line count:  " >> README.md
+	wc -l  guessinggame.sh | egrep -o "[0-9]+" >> README.md
