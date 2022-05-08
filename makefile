@@ -1,6 +1,3 @@
-draft_journal_entry.md:
-	touch draft_journal_entry.md
-
 create.md:
 	touch README.md
 	echo "# File Number Guess" >> README.md
